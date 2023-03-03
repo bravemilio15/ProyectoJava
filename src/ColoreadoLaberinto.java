@@ -15,7 +15,7 @@ public class ColoreadoLaberinto {
 
 
 
-    public void paint(Graphics grafico) { //Pinta todo el mapa segun la informacion recibida
+    public void paint(Graphics grafico) { //Pinta todo el mapa segun la informacion recibida.
         int[][] laberinto = generarLaberintos.obtieneLaberinto();
 
         for (fila = 0; fila < nFilas; fila++) {
