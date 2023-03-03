@@ -7,7 +7,7 @@ public class NombreJugador {
         nombreAct = nombre;
     }
 
-    public String obtenerNombre() {
+    public String obtenerNombre() { //SI es Nulo Nombra un default
         if (nombreAct != "") {
             return nombreAct;
         } else {
