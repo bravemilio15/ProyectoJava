@@ -126,7 +126,7 @@ public class Menu extends JFrame {
 
                 conex.conexion(puntuacionActual, tiempoActual, nombre);
 
-                JOptionPane.showMessageDialog(null, "Gracias por Jugar\nTu puntuación es: " + puntuacionActual);
+                JOptionPane.showMessageDialog(null, "Gracias por Jugar\nTu puntuación lograda  es: " + puntuacionActual);
 
                 System.exit(0);
             }
