@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd%22%3E
+<hibernate-configuration>
+    <session-factory>
+        <!-- Configuración de conexión a la base de datos -->
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/mydatabase</property>
+        <property name="hibernate.connection.username">myusername</property>
+        <property name="hibernate.connection.password">mypassword</property>
+
+        <!-- Configuración de dialecto de base de datos -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+        <!-- Configuración de mapeo de entidades -->
+        <mapping class="com.example.Product"/>
+    </session-factory>
+</hibernate-configuration>
