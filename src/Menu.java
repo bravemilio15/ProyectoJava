@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 public class Menu extends JFrame {
 
     
-    //Creo instancias de los botones del Menu 
+    //Creo instancias de los botones del Menu .
     private static Menu instance;
     private JButton btnStart;
     private JButton btnSalir;
@@ -50,6 +50,9 @@ public class Menu extends JFrame {
         add(labelLaberinto, BorderLayout.CENTER);
         add(labelSegunda, BorderLayout.NORTH);
         add(panel, BorderLayout.SOUTH);
+        
+        
+        //Creacion de la instancia del puntaje
 
         puntuacion = new Puntuacion();
 
