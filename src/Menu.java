@@ -14,6 +14,8 @@ import javax.swing.JPanel;
 
 public class Menu extends JFrame {
 
+    
+    //Creo instancias de los botones del Menu 
     private static Menu instance;
     private JButton btnStart;
     private JButton btnSalir;
