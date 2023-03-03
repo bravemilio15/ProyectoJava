@@ -32,7 +32,7 @@ public class Juego extends JPanel {
         setFocusable(true);//Para que podamos seguir corriendolo
     }
 
-    public void paint(Graphics grafico) {
+    public void paint(Graphics grafico) { //pinta todo
         laberinto.paint(grafico);
         personaje.paint(grafico);
     }
