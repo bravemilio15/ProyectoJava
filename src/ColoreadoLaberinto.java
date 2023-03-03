@@ -40,6 +40,7 @@ public class ColoreadoLaberinto {
                 }
             }
         }
+        //^Pinta en el mapa el inicio y el fin
         grafico.drawString("inicio", 5, 62);
         grafico.drawString("Fin", 850, 462);
     }
