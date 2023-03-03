@@ -1,7 +1,7 @@
 
 public class Laberintos {
     
-    int[][] lab = new int[13][23];
+    int[][] lab = new int[13][23]; // crea una variable con tamaño predefinido
     
     public int[][] obtieneLaberinto() {
         if (Juego.obtieneNivel() == 1) {
