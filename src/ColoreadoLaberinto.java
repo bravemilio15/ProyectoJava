@@ -15,7 +15,7 @@ public class ColoreadoLaberinto {
 
 
 
-    public void paint(Graphics grafico) {
+    public void paint(Graphics grafico) { //Pinta todo el mapa segun la informacion recibida.
         int[][] laberinto = generarLaberintos.obtieneLaberinto();
 
         for (fila = 0; fila < nFilas; fila++) {
@@ -40,6 +40,7 @@ public class ColoreadoLaberinto {
                 }
             }
         }
+        //^Pinta en el mapa el inicio y el fin
         grafico.drawString("inicio", 5, 62);
         grafico.drawString("Fin", 850, 462);
     }

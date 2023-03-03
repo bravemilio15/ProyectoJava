@@ -37,7 +37,7 @@ public class Juego extends JPanel {
         personaje.paint(grafico);
     }
 
-    public static int cambiaNivel() {
+    public static int cambiaNivel() {//Al llegar al final se suma 1 y cambia
         return nivel++;
 
     }
