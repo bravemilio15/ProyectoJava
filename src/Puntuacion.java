@@ -9,7 +9,7 @@ public class Puntuacion {
     private int tiempo;
     private Timer timer;
 
-    public Puntuacion() {
+    public Puntuacion() {//Genera el tiempo con una base de segundos
         tiempo = 0;
         timer = new Timer(1000, new ActionListener() {
             @Override
